@@ -1,0 +1,523 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 150px;
+    flex-direction: row;
+}
+.menu{
+    font-size: 15px;
+    display: flex;
+    align-items:center;
+
+}
+.icon{
+    display: flex;
+    color: black;
+    align-items:center;
+}
+.item{
+    margin: 0 25px;
+    font-size: 25px;
+}
+.black{
+    
+    margin: 0 20px;
+}
+.btn{
+ height: 50px;
+ width: 230px;
+    border-radius: 45px;
+    background-color:#3db9b5;
+    transition: all 0.2s ease; 
+    border: none;
+   
+    text-align: center;
+    margin-top: 55px;
+    color: white;
+    font-size: 30px;
+}
+.btn:active{
+    transform: scale(0.96); 
+    color: skyblue;
+}
+.main{
+    width: 100%;
+    height: 900px;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-image: url(https://img.freepik.com/premium-photo/foreground-table-freshly-baked-bread-with-blurred-bakery-background-ai_894067-689.jpg);
+}
+.h1{
+    font-size: 7rem;
+    font-weight: bolder;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+ 
+}
+.text{
+    width: 100%;
+    height: 725px;
+padding-top: 175px;
+padding-left: 225px;
+background-color: rgba(0, 0, 0, 0.5);
+}
+.para1{
+    color: white;
+    font-size: 35px;
+}
+.grid{
+   
+    width: 100%;
+    height: 1200px;
+   background-image: url(/images/bakery4-5-1200x800.jpg);
+/* filter: blur; */ background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+}
+.img{
+    width: 345px;
+    height: 330px;
+    margin: 73px;
+}
+.jkl{
+height: 217px;
+width: 300px;
+border-radius: 24px;
+margin: 30px;
+display: flex;
+justify-content: space-around;
+}
+.img1{
+   display: flex;
+    height: 240px; 
+    width: auto;
+    font-family:'DM Sans', sans-serif;
+justify-content: center;
+border-radius: 50px;
+text-align: center;
+align-items: center;
+color: #4B4342;
+font-size: 40px;
+margin: 5px;
+padding-top: 183px;
+}.img2{
+    display: flex;
+    flex-direction: row;
+     height: 240px;
+     width: auto; 
+  justify-content: center;
+     border-radius: 50px;
+     text-align: center;
+     align-items: center;
+     color: #4B4342;
+     font-size: 40px;
+     padding-top: 74px;
+     font-family:'DM Sans', sans-serif;
+}
+.h2{
+    font-size: 5rem;
+    font-weight: bolder;
+    color: #4B4342;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+padding-top: 90px;
+}
+
+.h4{
+    font-size: 60px;
+    font-weight: bolder;
+    color: #4B4342;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    padding:90px;
+}
+
+.bg{
+    
+width: 100%;
+    height: 1000px;
+   background-image: url(/images/bakery12-3-1200x800.jpg);
+ background-position: center;
+background-color:rgba(125, 210, 206, 0);
+background-size: cover;}
+.border{
+    text-align: center;
+    height:700px ;
+   width:1300px;
+   /* margin-left: 150px; */
+    border: 2px solid white;
+    text-align: center;
+}
+.br{
+    display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-color: #7dd2d0;
+width: auto;
+height: 997px;}
+.icon{
+    size: 100px;
+   font-size: 90px;
+   display: flex;
+   justify-content: center;
+    color: white;
+  padding-top: 100px;
+}
+.icon2{
+    size: 100px;
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+     color: #ff91a4;
+   padding-top: 100px;
+}
+
+.h3{
+    padding-top: 90px;
+    font-size: 70px;
+    color: white;
+}
+.p2{
+font-size:24px;
+color:white ;
+}
+.imgc{
+    padding-top: 5px;
+    width: 100%;
+    height: 670px;
+}
+.btn2{
+    height: 60px;
+    width: 242px;
+border-radius: 30px;
+font-size: 23px;
+border: 3px solid white;
+background-color: #7dd2d0;
+color: white;
+padding: 5px;}
+
+/* button.btn2 :hover{
+background-color: white;
+} */
+
+.cakes{
+    width: auto;
+    height: 1420px;
+}
+.imga{
+    width: 387px;
+height: 254px;
+ padding: 10px;
+border-radius: 32px;
+}
+/* .img{width} */
+.thb{
+    width: auto;
+    height: 1000px;
+    font-family:'DM Sans', sans-serif;
+}
+.zxc{
+    text-align: center;
+    color: #4B4342;
+    font-family: 'DM Sans', sans-serif; 
+     font-size: 30px;
+line-height: 44px;
+
+}
+.mn{
+    text-align: center;
+    color: #4B4342;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 38px;
+    line-height: 32px;
+    padding-left: 10px;
+}
+.dj{
+    display: flex;
+    justify-content: center;
+    padding-top: 62px;
+}
+.df{
+    height: 170px;
+    border-radius: 90px;
+}
+.eve{
+    text-align: center;
+    color: #4B4342;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 30px;
+    line-height: 32px;
+    padding-top: 20px;
+    font-weight:bold;
+}
+.fif{
+   background-position: center;
+    background-image: url(/images/bakery24-1-1200x800.jpg);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    width: 100%;
+    height: 1180px;
+
+}
+.sic{
+    width: 2045px;
+height: 1000px;
+background-color: #ffa3b3;
+padding: 0px 20px;
+
+
+}
+.h5{
+    font-size: 60px;
+    font-weight: bolder;
+   color: white;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    padding:110px;
+    padding-top: 135px;
+}
+
+.gh{
+    width: 107px;
+    height: 100px;
+    border-radius: 125px;
+
+}
+.cli{
+    display: flex;
+    justify-content: center;
+padding-left: 50px;
+padding-right: 50px;
+ 
+}
+.ams{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.po{
+    width: 450px;
+    height: 170px;
+    text-align: left;
+    color: white;
+    font-family: 'DM Sans' , sans-serif;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight:25px;
+    padding-left: 35px;
+}
+.qr{
+    text-align: left;
+    color: white;
+    font-family: 'DM Sans' , sans-serif;
+    font-size: 25px;
+    line-height: 32px;
+    font-weight:25px;
+    padding-left: 35px;
+    padding-bottom:10px ; 
+}
+.st{
+    letter-spacing: 3px;
+}
+.half{
+    margin-top: 100px;
+}
+.tl{
+    width:2024px;
+height: 2567px;}
+.h6{
+    font-size: 65px;
+    /* font-weight: bold; */
+    color: #4B4342;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+padding-top: 100px;
+padding-right: 845px;
+
+}
+.mm{
+    display: flex;
+padding-left: 15px;
+padding-left: 280px;
+}
+table{
+    padding-top: 50px;
+}
+th{
+    
+    text-align: left;
+    color: #919dab;
+    font-family: 'DM Sans' , sans-serif;
+    font-size: 34px;
+    line-height: 32px;
+padding: 55px 45px;
+font-weight:400 ;
+letter-spacing: 4px;
+border-bottom:5px solid #ebeaed;
+}
+td{
+    font-family: 'DM Sans' , sans-serif;
+    font-size: 22px;
+    padding: 60px;
+   border-bottom:5px solid #ebeaed;
+    color: #272422;
+}
+.sh{
+    width: 400px;
+    height: 350px;
+    background-color: #f3f2f4;
+    margin-left: 250px;
+    padding-top:10px ;
+    padding-left: 20px;
+    
+}
+.ma{
+    display: flex;
+   width: 3000px;
+}
+.qew{
+ padding-left:35px;
+ padding-right:45px;
+    font-size: 30px;
+padding-top:35px;
+font-family: 'DM Sans' , sans-serif;
+color: #696969;
+}
+.pl{
+    font-size:22px;
+    padding-top:35px;
+    font-family: 'DM Sans' , sans-serif;
+    padding-right:50px;
+    padding-left:35px;
+    line-height: 35px;
+    color: #5fcac7;
+}
+.ph{
+    font-size:22px;
+    padding-top:35px;
+    font-family: 'DM Sans' , sans-serif;
+    padding-left:35px;
+    padding-right:35px;
+    color: #5fcac7;
+}
+.pj{
+    font-size:22px;
+    padding-top:5px;
+    font-family: 'DM Sans' , sans-serif;
+    padding-left:35px;
+    padding-right:35px;
+    color: #5fcac7;
+}
+.el{
+width: 2024px;
+height: 800px;
+background-image: url(/images/bakery3-2-1200x800.jpg);
+background-position: center;
+background-color: #272422;
+background-size: cover;
+text-align: center;
+}
+.h7{
+    font-size: 75px;
+    color: white;
+    padding-top:100px;
+    font-family: 'DM Sans' , sans-serif;
+    
+}
+.put{
+    display: flex;
+    padding-left: 680px;
+    padding-top: 80px;
+}
+.ar{
+    width: 400px;
+    height: 90px;
+    border-radius: 60px;
+    padding-left: 19px;
+    font-size: 22px;
+    font-family: 'DM Sans' , sans-serif;
+}
+.hy{width: 220px;
+    height: 90px;
+    border-radius: 60px;
+    background-color: #3db9b5;
+    color: white;
+    font-size:28px ;
+    border: none;
+    }
+.gt{padding-left: 19px;
+    }
+.h8{
+    color: white;
+    padding-top:70px;
+    font-family: 'DM Sans' , sans-serif;
+    font-size: 25px;
+    font-weight:300;
+    letter-spacing: 3px;
+    }
+    .twi{
+        display: flex;
+        padding-left: 870px;
+        padding-top: 30px;
+    }
+.colo{
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 60px;
+    margin: 30px;
+   
+}
+.colo:hover{
+    border: 4px solid white;
+      font-weight: 200;
+}
+.footer{
+    width: 2024px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2a2a2a;
+}
+.f1{
+    display: flex;
+ color: white;
+ padding-top: 100px;
+ padding-right: 10px;
+}
+.g1{
+    padding: 25px;
+font-size: 26px;
+font-family: 'DM Sans' , sans-serif;
+}
+.f2{
+    padding-top: 100px;
+    width: 570px;
+}
+.q1{
+    align-items: center;
+    padding-left: 175px;
+}
+.q2{
+    padding-top: 15px;
+    padding-right: 170px;
+    color: white;
+    font-size: 23px;
+    font-family: 'DM Sans' , sans-serif;
+    text-align: center;
+}
+.f3{
+    color: white;
+    font-size: 26px;
+    font-family: 'DM Sans' , sans-serif;
+    text-align: center;  
+    padding-top: 130px; 
+}
